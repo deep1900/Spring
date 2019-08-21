@@ -34,6 +34,7 @@ public class EmployeeController {
     })
     public List<Employee> findAll() {
         return service.findAll();
+        System.out.println("Pulled");
     }
 
 
